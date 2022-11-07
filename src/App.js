@@ -9440,7 +9440,6 @@ const drawCanvas = (data = [], lineCtx, labelDotCtx, dotsCtx, lineColor = 'blue'
   dotsCtx.fillStyle = 'black';
   dotsCtx.fillRect(380, 321, 71, 16)
   dotsCtx.fillStyle = 'white';
-  dotsCtx.textAlign = 'center';
   dotsCtx.fillText(`Slough`, 388, 333);
   dotsCtx.restore();
 }
